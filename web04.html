@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>froms and input</title>
+</head>
+<body>
+    <h2>This is how you html forms</h2>
+    <from action=filename.php> <!--filename .php is a backend-->
+        <label for ="name"> Name:</label>
+        <div>
+         <input type ="text" name="myName" id="name">
+       </div>
+
+       <br>
+
+       <div>
+        Role: <input type ="text" name=""myRole>
+       </div>
+       <br>
+       <div>
+        Email: <input type="email" name="myEmail" >
+       </div>
+       <br>
+       <div>
+        Date: <input type ="date" name="Birthdate">
+       </div>
+       <br>
+       <br>
+       <div>
+           years of exp : <input type ="number" name="Myexp">
+        </div>
+        <br>
+        <div>
+            Are you a Robot? yes: <input type ="radio" name="ImHuman">No: <input type ="radio" name="ImHuman">
+            
+        </div>
+        <br>
+        <div>
+            <label for = "car">Car</label>
+            <select name = "'MyCar" id= "car">
+                <option value ="ind">Indica</option>
+                <option value ="swf">swift</option>
+
+            </select>
+        </div>
+        <div>
+            write about yourself: <br> <textarea name="mytext" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+          Submit: <input type = "submit" value="Submit your form">
+        </div>
+        <br>
+        <div>
+            Reset yout from: <input type ="reset" value="reset now">
+        </div>
+        
+    </from>
+</body>
+
+</html>
+<!-- div tag is used to seperate a division equivalent to a br tag and is recommended over it.(css abhi baaki hai)-->
+<!--name backend mein jaaega aur my email ki value lega-->
+<!-- Alt+arroe up/down moves selected area upar neeche-->
+<!-- always keep a check box checked ke liye tag closing ke pehle aur value ke baaad type checked(blue)-->
+<!-- label ke for mein id specify karein toh joh naam dalenge uspe click karte hi action ka result milega
+for eg: name id aur Name naam daala toh Name pe click karte etxt box select hota. -->
+<!-- label tag is just a label select is a dropdown list and option value are options
+use option value ke baad selected to create a by defualt selected value--> 
