@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+    font-family: 'Passions Conflict', cursive;
+}
+
+.sid{
+    margin:auto;
+}
+/* 
+#f8f9fa 
+#e9ecef
+#dee2e6
+#ced4da
+#adb5bd
+#6c757d
+#495057
+#343a40
+#415a77
+#e0e1dd
+#e85d04
+#218380
+#f0a6ca
+#d81159
+*/
+
+td{
+    height: 300px;
+    padding: 40px;
+    border: 8px solid white;
+  }
+
+  #one{
+    background-color: #f8f9fa;
+  }
+  
+  #two{
+    background-color: #e9ecef ;
+  }
+  
+  #three{
+    background-color: #dee2e6;
+  }
+  
+  #four{
+    background-color: #ced4da;
+  }
+  
+  #five{
+    background-color: #adb5bd;
+  }  
+
+  #six{
+    background-color: #6c757d;
+  }  
+
+  #seven{
+    background-color:#495057 ;
+  }  
+
+  #eight{
+    background-color: #343a40;
+  }  
+
+  #nine{
+    background-color: #415a77;
+  }  
+
+  #ten{
+    background-color:#e85d04 ;
+  }  
+
+  #eleven{
+    background-color: #218380;
+  }  
+
+  #twelve{
+    background-color: #f0a6ca;
+  }  
+
+  #thirteen{
+    background-color: #d81159;
+  }  
+
+ 
